@@ -41,7 +41,6 @@ header {
   max-width: 800px;
   padding: 30px 40px;
 }
-<<<<<<< HEAD
 
 .card-header::after {
   content: " ";
@@ -136,5 +135,3 @@ button[disabled] {
     font-size: 0.8rem;
   }
 }
-=======
->>>>>>> parent of 8a6b1c5... updated style.css & index.html
