@@ -1,5 +1,10 @@
+
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+var special = ["`", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "?", "/"];
+var lowerCase = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",];
+var upperCase = [];
+var numbers = [];
 
 // Write password to the #password input
 function writePassword() {
@@ -9,6 +14,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
